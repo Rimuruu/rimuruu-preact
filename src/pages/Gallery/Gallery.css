@@ -1,0 +1,15 @@
+#gallery{
+    display: grid;
+      grid-template-columns: repeat(7, 1fr);
+    
+}
+
+.modal{
+    position: fixed;
+    min-height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

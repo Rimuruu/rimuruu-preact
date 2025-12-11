@@ -1,0 +1,16 @@
+.image-item {
+  width: 200px;
+}
+
+.image-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.image-item-container:hover {
+  background-color: rgba(0,0,0,0.20);
+}

@@ -1,0 +1,21 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    height: 100%;
+}
+
+#home-image{
+
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+
+}
+
+#home-paragraph{
+    padding: 10px;
+
+}

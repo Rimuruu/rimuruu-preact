@@ -1,0 +1,24 @@
+#nav-bar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+   gap: 40px;
+}
+
+#nav-links{
+    display: flex;
+    flex:1;
+    gap: 40px;
+    align-items: end;
+}
+
+#nav-links a {
+    color:white;
+    text-decoration: none;
+}
+
+#nav-logo{
+    width: 32px;
+    height: 32px;  
+    background-color: green;  
+}

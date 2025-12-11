@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html
+{  height: 100%;
+}
+body,
+#app {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+#body {
+  padding: 45px;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: black;
+  flex:1;
+}
+
+#body * {
+    color: black;
+}
+
+#content {
+  flex: 1 1 auto;
+  background-color: white;
+}
+
